@@ -7,7 +7,7 @@ angleMode(DEGREES);
 function draw () {
     background (0);
     translate(200,200);
-    DeviceRotationRate(-90);
+    rotate(-HALF_PI);
     let hr = hour();
     let mn = minute();
     let sc = second();
